@@ -57,10 +57,10 @@ namespace _03_Botones
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Boton3_Click(object sender, RoutedEventArgs e)
+        private async void Boton3_Click(object sender, RoutedEventArgs e)
         {
             MessageDialog md = new MessageDialog("Hola Fernando");
-           // md.ShowAsync
+            await md.ShowAsync();
         }
     }
 }
