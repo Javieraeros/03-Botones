@@ -60,7 +60,7 @@ namespace _03_Botones
         private void Boton3_Click(object sender, RoutedEventArgs e)
         {
             MessageDialog md = new MessageDialog("Hola Fernando");
-            md.ShowAsync
+           // md.ShowAsync
         }
     }
 }
